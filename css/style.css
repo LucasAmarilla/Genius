@@ -1,0 +1,98 @@
+body {
+  background-image: url(b1.jpg);
+}
+h1 {
+  font-size: 100%;
+  margin-top: -5px;
+  left: 48.6%;
+  top: 57.6%;
+  position: absolute;
+  font-family: helvetica;
+  border-radius: 10px 10px 10px 10px;
+  background-color: white;
+}
+.logo{
+  margin-left: 95%;
+  background-color: white;
+  width: 150px;
+  height: 150px;
+
+}
+.div_master{
+  display: flex;
+}
+.div_sec{
+  display: flex;
+  flex-direction: column;
+}
+.div_rolador {
+  overflow: auto;
+  height: 200;
+  width: 150;
+}
+
+.div_main{
+  display: flex;
+  flex-wrap: wrap;
+}
+#genius {
+background-image: url(genius_preto.png);
+background-repeat: no-repeat;
+height: 40px;
+width: 135px;
+right: 46.2%;
+top: 50%;
+position: absolute;
+background-color: white;
+border-radius: 10px 10px 10px 10px;
+
+}
+
+#contador_de_turno {
+  height: 38px;
+  width: 135px;
+  right: 43%;
+  top: 55.3%;
+  position: absolute;
+  font-family: helvetica;
+}
+
+#verde {
+background-image: url(verde.png);
+position: absolute;
+height: 260px;
+width: 260px;
+top: 50%;
+left: 50%;
+margin: -240px 0px 0px -250px;
+}
+
+#vermelho {
+  background-image: url(vermelho.png);
+  position: absolute;
+  height: 260px;
+  width: 260px;
+  top: 50%;
+  left: 50%;
+  margin: -240px 0px 0px 0px;
+}
+
+#amarelo {
+  background-image: url(amarelo.png);
+  position: absolute;
+  height: 260px;
+  width: 260px;
+  top: 51%;
+  left: 50%;
+  margin: 0px -240px 0px -250px;
+}
+
+#azul {
+  background-image: url(azul.png);
+  position: absolute;
+  height: 260px;
+  width: 260px;
+  top: 51%;
+  left: 50%;
+  margin: 0px 0px -240px 0px;
+}
